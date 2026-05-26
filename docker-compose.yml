@@ -1,7 +1,7 @@
 services:
 
   mongo:
-    image: mongo:7
+    image: mongo:8
     restart: unless-stopped
     env_file: .env
     volumes:
